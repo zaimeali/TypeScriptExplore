@@ -1,0 +1,2 @@
+tsc -v => for version check
+tsc index.ts => to run ts file
