@@ -41,3 +41,17 @@ pow(5, 10);
 const arr: number[] = []
 
 arr.push(1)
+
+
+// Generics
+
+class Observable<T>{
+    // T shows variable type
+    constructor(public value:T){
+
+    }
+}
+
+let x: Observable<number>; 
+let y: Observable<Person>; 
+let z = new Observable(23);
