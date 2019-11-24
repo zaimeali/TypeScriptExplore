@@ -1,5 +1,7 @@
 {
     "compilerOptions": {
-        "target": "esnext"
+        "target": "esnext",
+        "watch": true, //so we don't have to run every time we save the file
+        "lib": ["dom", "es2017"] //if creating web app so include dom so it'll help to implement all the dom classes
     }
 }
