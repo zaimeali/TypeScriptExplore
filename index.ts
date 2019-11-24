@@ -28,3 +28,10 @@ const person2: Person = {
     last: "Azhar",
     chaman: true
 }
+
+
+function pow(x, y){
+    return Math.pow(x, y);
+}
+
+pow('23', 'foo');
