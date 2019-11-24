@@ -38,8 +38,6 @@ pow(5, 10);
 
 
 // Arrays
-const arr = []
+const arr: number[] = []
 
 arr.push(1)
-arr.push('23')
-arr.push(false)
