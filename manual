@@ -1,2 +1,3 @@
 tsc -v => for version check
 tsc index.ts => to run ts file
+type nul > tsconfig.json => to create a file
