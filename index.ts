@@ -30,8 +30,16 @@ const person2: Person = {
 }
 
 
-function pow(x, y){
-    return Math.pow(x, y);
+function pow(x: number, y: number): string{
+    return Math.pow(x, y).toString();
 }
 
-pow('23', 'foo');
+pow(5, 10);
+
+
+// Arrays
+const arr = []
+
+arr.push(1)
+arr.push('23')
+arr.push(false)
